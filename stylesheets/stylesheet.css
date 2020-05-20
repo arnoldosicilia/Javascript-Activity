@@ -10,3 +10,13 @@ button{
  width: 80px;
  text-align: center;
 }
+.calculator{
+    margin:200px
+}
+#screen{
+    justify-items: center;
+    padding-top: 45px;
+    height: 100px;
+    width: 320px;
+    background-color: silver;
+}

@@ -6,43 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="stylesheets/stylesheet.css" rel="stylesheet">
     <title>Calculator-Javascript Activity</title>
+
 </head>
 
 <body>
     <div class="calculator">
 
-        <div class="screen">
-            <p>Resultado</p>
-        </div>
+        <div id="screen">0</div>
         <div class="buttons-grid">
             <table>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button>+</button></td>
+                    <td><button id="1" class="number">1</button></td>
+                    <td><button id="2" class="number">2</button></td>
+                    <td><button id="3" class="number">3</button></td>
+                    <td><button id="+" class="operation">+</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>-</button></td>
+                    <td><button id="4" class="number">4</button></td>
+                    <td><button id="5" class="number">5</button></td>
+                    <td><button id="6" class="number">6</button></td>
+                    <td><button id="-" class="operation">-</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>x</button></td>
+                    <td><button id="7" class="number">7</button></td>
+                    <td><button id="8" class="number">8</button></td>
+                    <td><button id="9" class="number">9</button></td>
+                    <td><button id="x" class="operation">x</button></td>
                 </tr>
                 <tr>
-                    <td><button>c</button></td>
-                    <td><button>0</button></td>
-                    <td><button>=</button></td>
-                    <td><button>/</button></td>
+                    <td><button id="c" class="operation">c</button></td>
+                    <td><button id="0" class="number">0</button></td>
+                    <td><button id="=" class="operation">=</button></td>
+                    <td><button id="/" class="operation">/</button></td>
                 </tr>
             </table>
         </div>
     </div>
+    <script src="javascripts/calculator.js"></script>
+    <script src="javascripts/main.js"></script>
 </body>
 
 </html>
